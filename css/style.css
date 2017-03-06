@@ -1,7 +1,44 @@
-html {
+html, body {
+  margin: 0;
   height: 100%;
+  overflow: hidden;
 }
 
 body {
   background: linear-gradient(135deg, red, blue);
+}
+
+.container {
+  width: 100%;
+}
+
+.stretched {
+	white-space: nowrap;
+}
+
+.justify {
+	text-align: justify;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  width: 100%;
+}
+
+h1.splendid {
+  font-family: "Helvetica", sans-serif;
+  font-size: 15em;
+  background: linear-gradient(90deg, blue, red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1.emblem {
+  font-family: "Helvetica", sans-serif;
+  font-size: 15em;
+  background: linear-gradient(90deg, blue, red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
