@@ -1,3 +1,8 @@
+:root {
+	--gradient-color-1: red;
+  --gradient-color-2: blue;
+}
+
 html, body {
   margin: 0;
   height: 100%;
@@ -28,17 +33,15 @@ h1 {
 }
 
 h1.splendid {
-  font-family: "Helvetica", sans-serif;
-  font-size: 15em;
-  background: linear-gradient(90deg, blue, red);
+  font-size: 10em;
+  background: linear-gradient(90deg, var(--gradient-color-1), var(--gradient-color-2));
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h1.emblem {
-  font-family: "Helvetica", sans-serif;
   font-size: 15em;
-  background: linear-gradient(90deg, blue, red);
+  background: linear-gradient(90deg, var(--gradient-color-1), var(--gradient-color-2));
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
