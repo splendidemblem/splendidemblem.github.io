@@ -10,6 +10,7 @@ html, body {
 }
 
 body {
+  font-family: 'Cinzel', serif;
   background: linear-gradient(135deg, red, blue);
 }
 
