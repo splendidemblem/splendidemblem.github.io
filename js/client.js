@@ -23,9 +23,9 @@ $.fn.stretchText = function() {
 };
 
 
-$(document).ready(function() {
+window.onload = function() {
   $('.stretch-me').each(function() {
     $(this).stretchText();
   });
-});
+};
 
