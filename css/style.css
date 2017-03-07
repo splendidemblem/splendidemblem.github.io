@@ -3,6 +3,26 @@
   --gradient-color-2: blue;
 }
 
+
+@-webkit-keyframes AnimationName {
+	0%{background-position:0% 15%}
+	50%{background-position:100% 86%}
+	100%{background-position:0% 15%}
+}
+
+@-moz-keyframes AnimationName {
+	0%{background-position:0% 15%}
+	50%{background-position:100% 86%}
+	100%{background-position:0% 15%}
+}
+
+@keyframes AnimationName {
+	0%{background-position:0% 15%}
+	50%{background-position:100% 86%}
+	100%{background-position:0% 15%}
+}
+
+
 html, body {
   margin: 0;
   height: 100%;
@@ -11,7 +31,14 @@ html, body {
 
 body {
   font-family: 'Cinzel', serif;
-  background: linear-gradient(135deg, red, blue);
+
+	background: linear-gradient(177deg, #ff2400, #ff7e00, #ffab00, #f30054);
+	background-size: 800% 800%;
+
+	-webkit-animation: AnimationName 27s ease infinite;
+	-moz-animation: AnimationName 27s ease infinite;
+	animation: AnimationName 27s ease infinite;
+
 }
 
 .container {
