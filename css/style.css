@@ -62,14 +62,20 @@ h1 {
 
 h1.splendid {
   font-size: 10em;
-  background: linear-gradient(90deg, var(--gradient-color-1), var(--gradient-color-2));
+	background: linear-gradient(177deg, #ff2400, #ff7e00, #ffab00, #f30054);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+	-webkit-animation: AnimationName 7s ease infinite;
+	-moz-animation: AnimationName 7s ease infinite;
+	animation: AnimationName 7s ease infinite;
 }
 
 h1.emblem {
   font-size: 15em;
-  background: linear-gradient(90deg, var(--gradient-color-1), var(--gradient-color-2));
+	background: linear-gradient(177deg, #ff2400, #ff7e00, #ffab00, #f30054);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+	-webkit-animation: AnimationName 10s ease infinite;
+	-moz-animation: AnimationName 10s ease infinite;
+	animation: AnimationName 10s ease infinite;
 }
