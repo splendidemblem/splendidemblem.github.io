@@ -32,12 +32,12 @@ html, body {
 body {
   font-family: 'Cinzel', serif;
 
-	background: linear-gradient(177deg, #ff2400, #ff7e00, #ffab00, #f30054);
+	background: linear-gradient(270deg, #e7f3f0, #c4f0e5, #c6dcec, #dfd8f0, #f0d8e4, #f0d8d8, #f0e1d8, #e3f0d8, #c4cabe);
 	background-size: 800% 800%;
 
-	-webkit-animation: AnimationName 27s ease infinite;
-	-moz-animation: AnimationName 27s ease infinite;
-	animation: AnimationName 27s ease infinite;
+	-webkit-animation: AnimationName 47s ease infinite;
+	-moz-animation: AnimationName 47s ease infinite;
+	animation: AnimationName 47s ease infinite;
 
 }
 
@@ -62,7 +62,7 @@ h1 {
 
 h1.splendid {
   font-size: 10em;
-	background: linear-gradient(177deg, #ff2400, #ff7e00, #ffab00, #f30054);
+	background: linear-gradient(270deg, #e7f3f0, #c4f0e5, #c6dcec, #dfd8f0, #f0d8e4, #f0d8d8, #f0e1d8, #e3f0d8, #c4cabe);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 	-webkit-animation: AnimationName 7s ease infinite;
@@ -72,7 +72,7 @@ h1.splendid {
 
 h1.emblem {
   font-size: 15em;
-	background: linear-gradient(177deg, #ff2400, #ff7e00, #ffab00, #f30054);
+	background: linear-gradient(270deg, #e7f3f0, #c4f0e5, #c6dcec, #dfd8f0, #f0d8e4, #f0d8d8, #f0e1d8, #e3f0d8, #c4cabe);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 	-webkit-animation: AnimationName 10s ease infinite;
